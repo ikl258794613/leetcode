@@ -7,7 +7,7 @@ function divBy2(number) {
     number = Math.floor(number / 2);
   }
 
-  while (stack != null) {
+  while (stack.length != 0) {
     str += stack.pop();
   }
 
